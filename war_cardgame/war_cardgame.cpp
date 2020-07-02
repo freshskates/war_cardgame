@@ -4,13 +4,8 @@ using namespace std;
 #include <cstdlib>
 #include <ctime>
 
-
 int getcard(int plus, int max) {
-    
-    //int random = plus + (rand() % max);// 2, 13 for card
-
     return (plus) + (rand() % max);
-
 }
 void card(int number, int club, string who) {
     
@@ -29,8 +24,7 @@ void card(int number, int club, string who) {
         clubname = "Clubs";
         break;
     }
-    
-    
+
     if (number > 10) {
 
         switch (number) {
